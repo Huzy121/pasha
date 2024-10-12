@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import './Bookings.css'; // Import your CSS for styling
+import './bookings.css'; // Import your CSS for styling
 
 const Bookings: React.FC = () => {
   const [formData, setFormData] = useState({
