@@ -1,0 +1,53 @@
+.page-content {
+    padding-top: 8rem; /* This should match the height of your navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Adjust the width as needed */
+    gap: 10px; /* Add spacing between elements */
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #F7F7F7;
+    outline: none;
+    background-color: #F7F7F7;
+  }
+  
+  .booking-form input[type='date'] {
+    padding: 8px 10px; /* Adjust padding to make room for the date picker icon */
+  }
+  
+  .booking-form textarea {
+    resize: none; /* Prevent resizing */
+    height: 100px; /* Set a fixed height */
+  }
+  
+  .booking-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #555; /* Darken on hover */
+  }
+  @media (min-width: 768px) {
+    .booking-form{
+        max-width: 30%;
+    }
+}

@@ -1,0 +1,26 @@
+.loyalty-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 7rem 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .loyalty-section {
+    margin-bottom: 40px; /* Space between each section */
+  }
+  
+  .loyalty-heading {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .loyalty-text {
+    font-size: 16px;
+    color: #777;
+    margin: 0;
+  }
+  

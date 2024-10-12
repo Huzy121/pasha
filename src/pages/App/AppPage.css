@@ -1,0 +1,17 @@
+.download-page-container {
+    padding-top: 8rem; /* This should match the height of your navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.store-button{
+    width: 80vw;
+    padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .store-button{
+        max-width: 15vw;
+        padding-bottom: 20px;
+    }
+}

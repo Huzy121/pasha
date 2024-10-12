@@ -1,0 +1,30 @@
+/* Container for the contact page */
+.contact-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 7rem 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Styling for the contact text */
+  .contact-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the map */
+  .map-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px
+  }
+  
+  /* Styling for the map image */
+  .map-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures image is block-level */
+  }
+  
