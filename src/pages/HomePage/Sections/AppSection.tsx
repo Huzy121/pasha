@@ -1,6 +1,5 @@
-import React from 'react';
-import app from '../../../assets/images/pasha-app.jpeg';
 import { useNavigate } from 'react-router-dom';
+import app from '../../../assets/images/pasha-app.jpeg';
 
 const AppSection = () => {
   const navigate = useNavigate();

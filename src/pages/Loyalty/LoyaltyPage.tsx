@@ -1,4 +1,3 @@
-import React from 'react';
 import './LoyaltyPage.css'; // Import your CSS for styling
 
 const LoyaltyPage = () => {

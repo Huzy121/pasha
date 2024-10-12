@@ -1,18 +1,17 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 // Your individual page components
-import HomePage from './pages/HomePage/HomePage';
+import { BasketProvider } from './context/BasketContext';
+import AppPage from './pages/App/AppPage';
 import Basket from './pages/Basket/basket';
 import Bookings from './pages/Bookings/bookings';
-import AppPage from './pages/App/AppPage';
+import ContactUs from './pages/ContactUs/ContactUs';
+import HomePage from './pages/HomePage/HomePage';
 import LoyaltyPage from './pages/Loyalty/LoyaltyPage';
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
-import ContactUs from './pages/ContactUs/ContactUs';
-import { BasketProvider } from './context/BasketContext';
 // Import other pages/components as needed
 
 function App() {

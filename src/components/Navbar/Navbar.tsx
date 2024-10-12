@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Navbar.css';
-import pasha from '../../assets/images/pasha-logo.png';
 import cart from '../../assets/icons/cart.svg';
+import pasha from '../../assets/images/pasha-logo.png';
 import { BasketContext, BasketContextProps } from '../../context/BasketContext'; // Import BasketContext
+import './Navbar.css';
 
 const Navbar: React.FC = () => {
   const location = useLocation();
@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
   const totalItems = basketItems.reduce((acc, item) => acc + item.quantity, 0);
 
   // Function to handle the logo click
-  const handleLogoClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleLogoClick = () => {
     // If already on the homepage, refresh the page
     if (location.pathname === '/') {
       window.location.reload(); // Refresh the page

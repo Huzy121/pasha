@@ -2,8 +2,8 @@ import React from 'react';
 import './AppPage.css';
 
 // Replace these imports with your actual image paths
-import googlePlay from '../../assets/images/google-play.png';
 import appStore from '../../assets/images/app-store.png';
+import googlePlay from '../../assets/images/google-play.png';
 
 const AppPage: React.FC = () => {
   return (

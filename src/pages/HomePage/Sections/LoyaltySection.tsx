@@ -1,6 +1,5 @@
-import React from 'react';
-import loyalty from '../../../assets/images/loyalty-image.jpg';
 import { useNavigate } from 'react-router-dom';
+import loyalty from '../../../assets/images/loyalty-image.jpg';
 
 const LoyaltySection = () => {
   const navigate = useNavigate();

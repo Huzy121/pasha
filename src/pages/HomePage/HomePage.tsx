@@ -1,13 +1,11 @@
-import React from 'react';
-import WelcomeSection from './Sections/WelcomeSection';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useNavigate } from 'react-router-dom';
+import naan from '../../assets/videos/pasha-video.mp4';
 import AppSection from './Sections/AppSection';
 import LoyaltySection from './Sections/LoyaltySection';
 import MenuSection from './Sections/MenuSection';
-import naan from '../../assets/videos/pasha-video.mp4';
-import cart from '../../assets/icons/cart-overlay.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import WelcomeSection from './Sections/WelcomeSection';
 const HomePage = () => {
   
   return (

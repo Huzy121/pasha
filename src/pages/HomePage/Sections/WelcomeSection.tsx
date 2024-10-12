@@ -1,4 +1,3 @@
-import React from 'react';
 import welcome from '../../../assets/images/welcome-image.jpg';
 
 const WelcomeSection = () => {

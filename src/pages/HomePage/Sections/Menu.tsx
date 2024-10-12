@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { categories } from './MenuCategories';  // Adjust the path as needed
+import { useState } from 'react';
 import { useBasket } from '../../../context/BasketContext';
+import { categories } from './MenuCategories'; // Adjust the path as needed
 
 const Menu = () => {
   const [activeTab, setActiveTab] = useState('tab0'); // Default active tab

@@ -1,6 +1,5 @@
-import React from 'react';
-import './ContactUs.css';
 import mapImage from '../../assets/images/location.png'; // Replace with the correct path to your image
+import './ContactUs.css';
 
 const ContactUs = () => {
   return (
